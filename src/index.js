@@ -100,7 +100,7 @@ Apify.main(async () => {
       }
     }
 
-    obj.date = String(new Date().getDate())
+    obj.date = String(new Date().toLocaleString())
 
     return obj;
   });
