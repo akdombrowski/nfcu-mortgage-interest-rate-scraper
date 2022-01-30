@@ -14,6 +14,7 @@ Apify.main(async () => {
   const input = {
     url: "https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html",
   };
+
   if (!input || !input.url)
     throw new Error('Input must be a JSON object with the "url" field!');
 
@@ -98,6 +99,9 @@ Apify.main(async () => {
         }
       }
     }
+
+    obj.date = String(new Date().getDate())
+
     return obj;
   });
 
@@ -108,6 +112,7 @@ Apify.main(async () => {
   await Apify.setValue("interestRate", conventional30yrRate.interestRate);
   await Apify.setValue("discountPoints", conventional30yrRate.discountPoints);
   await Apify.setValue("apr", conventional30yrRate.apr);
+  await Apify.setValue("date", conventional30yrRate.date);
 
   console.log("Closing Puppeteer...");
   await browser.close();
