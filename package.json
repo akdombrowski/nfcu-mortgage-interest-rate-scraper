@@ -1,7 +1,7 @@
 {
-  "name": "ping-saml-decoder-puppeteer",
+  "name": "nfcu-mortgage-interest-rate-scraper",
   "version": "0.0.1",
-  "description": "Puppeteer use of Ping Identity's SAML Decoder Developer Tool.",
+  "description": "nfcu-mortgage-interest-rate-scraper.",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js",
@@ -9,25 +9,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akdombrowski/ping-saml-decoder-puppeteer.git"
+    "url": "git+https://github.com/akdombrowski/nfcu-mortgage-interest-rate-scraper.git"
   },
   "keywords": [
-    "puppeteer",
-    "Ping",
-    "Identity",
-    "SAML",
-    "decoder",
-    "Decoder",
-    "developer",
-    "tool"
+    "nfcu",
+    "mortgage",
+    "interest",
+    "rate",
+    "scraper"
   ],
   "author": "Anthony Dombrowski",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/akdombrowski/ping-saml-decoder-puppeteer/issues"
+    "url": "https://github.com/akdombrowski/nfcu-mortgage-interest-rate-scraper/issues"
   },
-  "homepage": "https://github.com/akdombrowski/ping-saml-decoder-puppeteer#readme",
+  "homepage": "https://github.com/akdombrowski/nfcu-mortgage-interest-rate-scraper#readme",
   "dependencies": {
-    "puppeteer": "^13.1.1"
+    "apify": "^2.2.1",
+    "puppeteer": "^13.1.2"
   }
 }
