@@ -100,7 +100,7 @@ Apify.main(async () => {
       }
     }
 
-    obj.date = String(new Date().toLocaleString())
+    obj.date = String(new Date().toLocaleString("en-US", {timezone: "America/Chicago"}))
 
     return obj;
   });
