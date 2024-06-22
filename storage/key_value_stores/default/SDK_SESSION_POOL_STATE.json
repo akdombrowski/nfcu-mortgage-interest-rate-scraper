@@ -1,0 +1,330 @@
+{
+  "usableSessionsCount": 2,
+  "retiredSessionsCount": 0,
+  "sessions": [
+    {
+      "id": "session_GvwjyWvFHO",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.4",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": []
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2024-06-22T20:04:20.653Z",
+      "createdAt": "2024-06-22T19:14:20.653Z",
+      "usageCount": 0,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    },
+    {
+      "id": "session_ylYlV0G89M",
+      "cookieJar": {
+        "version": "tough-cookie@4.1.4",
+        "storeType": "MemoryCookieStore",
+        "rejectPublicSuffixes": true,
+        "enableLooseMode": false,
+        "allowSpecialUseDomain": true,
+        "prefixSecurity": "silent",
+        "cookies": [
+          {
+            "key": "LPSID-11478817",
+            "value": "1rEQciSiQMCEjUC-7QIIMA",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.467Z",
+            "lastAccessed": "2024-06-22T19:15:06.467Z"
+          },
+          {
+            "key": "LPVID",
+            "value": "M2MDIzNWYwNmU3NzE0YWEx",
+            "expires": "2025-06-22T19:14:26.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.471Z",
+            "lastAccessed": "2024-06-22T19:15:06.471Z"
+          },
+          {
+            "key": "AMCV_9BD537045330573C0A490D44%40AdobeOrg",
+            "value": "179643557%7CMCIDTS%7C19897%7CMCMID%7C85506314091114841160195147469429445339%7CMCAID%7CNONE%7CMCOPTOUT-1719090862s%7CNONE%7CMCAAMLH-1719688462%7C9%7CMCAAMB-1719688462%7Cj8Odv6LonN4r3an7LhD3WZrU1bUpAkFkkiY1ncBR96t2PTI%7CMCSYNCSOP%7C411-19904%7CvVersion%7C5.5.0",
+            "expires": "2025-07-27T19:14:23.403Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.472Z",
+            "lastAccessed": "2024-06-22T19:15:06.472Z"
+          },
+          {
+            "key": "_bti",
+            "value": "%7B%22app_id%22%3A%22navy-federal-credit-union%22%2C%22bsin%22%3A%22%2BXdxe4%2BjEGMQZjQi8u7xpoCUfC5Exdu1QQxLPNE8ki3%2Ft37glQ4Gqnl%2BMYyve0AYAXufy43633%2FWHApLb9z%2FNA%3D%3D%22%2C%22is_identified%22%3Afalse%7D",
+            "expires": "2025-06-22T19:14:23.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.473Z",
+            "lastAccessed": "2024-06-22T19:15:06.473Z"
+          },
+          {
+            "key": "s_vnc365",
+            "value": "1750619662940%26vn%3D1",
+            "expires": "2025-06-23T04:59:59.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.473Z",
+            "lastAccessed": "2024-06-22T19:15:06.473Z"
+          },
+          {
+            "key": "_bts",
+            "value": "ccd34f82-f9a8-4f0d-dfa8-9eb9e300bfe3",
+            "expires": "2024-06-22T20:14:22.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.474Z",
+            "lastAccessed": "2024-06-22T19:15:06.474Z"
+          },
+          {
+            "key": "ttc_c14",
+            "value": "1719083662937",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.474Z",
+            "lastAccessed": "2024-06-22T19:15:06.474Z"
+          },
+          {
+            "key": "s_tp",
+            "value": "7974",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.475Z",
+            "lastAccessed": "2024-06-22T19:15:06.475Z"
+          },
+          {
+            "key": "_uetsid",
+            "value": "a17946f030cb11ef9e8a21991212d153",
+            "expires": "2024-06-23T19:14:21.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.475Z",
+            "lastAccessed": "2024-06-22T19:15:06.475Z"
+          },
+          {
+            "key": "gpv_page",
+            "value": "nfo%3Aloans-cards%3Amortgage%3Amortgage-rates%3Aconventional-fixed-rate-mortgages",
+            "expires": "2024-06-22T19:44:22.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.476Z",
+            "lastAccessed": "2024-06-22T19:15:06.476Z"
+          },
+          {
+            "key": "at_check",
+            "value": "true",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.476Z",
+            "lastAccessed": "2024-06-22T19:15:06.476Z"
+          },
+          {
+            "key": "AMCVS_9BD537045330573C0A490D44%40AdobeOrg",
+            "value": "1",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.476Z",
+            "lastAccessed": "2024-06-22T19:15:06.476Z"
+          },
+          {
+            "key": "s_cc",
+            "value": "true",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.477Z",
+            "lastAccessed": "2024-06-22T19:15:06.477Z"
+          },
+          {
+            "key": "s_ips",
+            "value": "1440",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.477Z",
+            "lastAccessed": "2024-06-22T19:15:06.477Z"
+          },
+          {
+            "key": "s_ecid",
+            "value": "MCMID%7C85506314091114841160195147469429445339",
+            "expires": "2025-07-27T19:14:23.050Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.478Z",
+            "lastAccessed": "2024-06-22T19:15:06.478Z"
+          },
+          {
+            "key": "s_ppv",
+            "value": "nfo%253Aloans-cards%253Amortgage%253Amortgage-rates%253Aconventional-fixed-rate-mortgages%2C18%2C18%2C1440%2C1%2C5",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.478Z",
+            "lastAccessed": "2024-06-22T19:15:06.478Z"
+          },
+          {
+            "key": "_abck",
+            "value": "C3F673BFE00453FFDDB98B0048682FF1~0~YAAQ6jgvFyB28TyQAQAA4/teQQwoQoJih3Jdyqncy4YxcjI0IQoXmxcTv2/CAaAdsuon1NjJKEY3iUWkCeeQrP4M+bkH0NwBTz4Mfm3DmEOGDIqeqNAbYC0t+G6YIbjr6mzdnmSm3iDe5ki0fQVak3rSx5Fc9gzZLuHkU0SiWyLr/vTI7R3pid8/HkU4a1/H21mpC9M0D47RRpvHFrPtA3fhXcrEde9Xa6rBxu1/VBWHQ8AR3Vy3v/QkoVgMa+ruPSMl2viQxRbS2Go80xJVPuGaRz60nHzdFSNbu7h3zP/orKNvlGXBiejmC+N9P0alZIMBYm9zOXymbp4LKA4z5fCx1yfgxOQtI0M3lUZL5PXS82IjvFD5fwV6JJt20/x1gESu1EIeKfzXTaKBwrHeWlc5O94J1FNHMdsOZQ==~-1~||-1||~-1",
+            "expires": "2025-06-22T19:14:21.884Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.479Z",
+            "lastAccessed": "2024-06-22T19:15:06.479Z"
+          },
+          {
+            "key": "_uetvid",
+            "value": "a179656030cb11efb7255f384d5632f9",
+            "expires": "2025-07-17T19:14:21.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.479Z",
+            "lastAccessed": "2024-06-22T19:15:06.479Z"
+          },
+          {
+            "key": "s_ivc",
+            "value": "true",
+            "expires": "2024-06-22T19:44:22.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.479Z",
+            "lastAccessed": "2024-06-22T19:15:06.479Z"
+          },
+          {
+            "key": "_tq_id.TV-8181450918-1.e1be",
+            "value": "0af98bce89427f3a.1719083662.0.1719083662..",
+            "expires": "2025-07-27T19:14:22.474Z",
+            "domain": "www.navyfederal.org",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2024-06-22T19:15:06.480Z",
+            "lastAccessed": "2024-06-22T19:15:06.480Z"
+          },
+          {
+            "key": "_gcl_au",
+            "value": "1.1.1605014853.1719083662",
+            "expires": "2024-09-20T19:14:22.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.480Z",
+            "lastAccessed": "2024-06-22T19:15:06.480Z"
+          },
+          {
+            "key": "bm_sv",
+            "value": "86B174C57804932968F3CDAFD77CA7EB~YAAQ6jgvF/118TyQAQAAb/peQRjkzEZC14w49Esy754w72B26U68B1wTT/FbO67TpwpcYSmzQo8xSMUKdAEe3qE7ohf29o9aPAc5MiPrApP/LGNflxI+rX5K7J/zyv6hQXTvnNOl1MlBAvpYlF7Kcn1W4hlaQNYPk2aCQw8QYrTv/v1ci/yXk+rI5DoeFgYQLOdOWpDyVSA9s7jYs5pdgu3+7ajGdo0qUfzQqFHoBJ+BmO6/vJdY7LwEvxGZQskE+CA7Y78=~1",
+            "expires": "2024-06-22T21:14:21.524Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "secure": true,
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.481Z",
+            "lastAccessed": "2024-06-22T19:15:06.481Z"
+          },
+          {
+            "key": "_fbp",
+            "value": "fb.1.1719083661752.791327620361950651",
+            "expires": "2024-09-20T19:14:21.000Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.481Z",
+            "lastAccessed": "2024-06-22T19:15:06.481Z"
+          },
+          {
+            "key": "affinity",
+            "value": "\"f968fff849f8a337\"",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "www.navyfederal.org",
+            "path": "/",
+            "httpOnly": true,
+            "hostOnly": true,
+            "creation": "2024-06-22T19:15:06.481Z",
+            "lastAccessed": "2024-06-22T19:15:06.481Z"
+          },
+          {
+            "key": "mbox",
+            "value": "session#8d47f54319e44fb08cc1571f1c4692c1#1719085523|PC#8d47f54319e44fb08cc1571f1c4692c1.35_0#1782328463",
+            "expires": "2025-07-27T19:14:22.836Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.482Z",
+            "lastAccessed": "2024-06-22T19:15:06.482Z"
+          },
+          {
+            "key": "bm_sz",
+            "value": "E94D80A85A970892895F183088564FD5~YAAQ6jgvF9Z18TyQAQAA7PheQRgegRrFSCvtRLGwVm3px11Cgj8lQ2gVTl8w3eXKD3tZzD7NfrKCRZ8l23jr09nyJjJAZYe9B/hwyvD6B9YPAuhzY+y9tDyMS6mo/3My7hL/Af73Cb+ntoK/s2p6VGMfd0dpqw2387xLarX169+OIIj9EPSSRWJCRq0xrjP9OLSRlALToc82Z9Xr0CT+cgYYzkbmFWOAR9PJpIaKGxgCCxNT3YTjCkmwGN5SZ8mwQ8gLi6p2qrGX2Wago2o+5YQ1u1o9IXEw5byPlkY3ZGlaakOUBhcHMr9Hm1f7Xmbv7Y/fc5UYEWlPiQ3lRk/wbGq3Pz966DzcO4Qu0jV6MaeeEq5pCe5EudjBAKd3HWBiwG32SZg/o8CGWziA3CZvWxfl~3487029~3290680",
+            "expires": "2024-06-22T23:14:21.125Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.482Z",
+            "lastAccessed": "2024-06-22T19:15:06.482Z"
+          },
+          {
+            "key": "ak_bmsc",
+            "value": "678068A76639B3AB29536CE3D0CBAEF2~000000000000000000000000000000~YAAQ6jgvFyh28TyQAQAAgvxeQRhAocPG5FKEzsxLJ3JJvdacz2/2qeyjBYYw2mfnMZhjU5YbIgogGO5cdZQDIDRYEisYGvX0VaNLAxN1ti+ZmUUeclGn0zhKBzqxDD4oS9qEeJ3C1P2NRXwUDFEhWA4DOt91AIamOMv+nBNiB8AiiB6YR6uV9nX1mMqBalVfABY1/n2oI+yyroXWxMCiGhLswu+5/hDjG1B4/Gzw+GJFSqwiyxZjwCJ7qu9CUQIW6ybfNU3Xi562DMoYZRPqpDljPqdZOS2BPlS2vX9ISrUGvRttuqMU8CDiPlOa4zsN+L8qy0JsItGeBnJJLXBefRijOWx4Gg4tuljqSTW2MYKy0BOxnuw9o+SVjEMpGDv72ZY/aGUfBZO820gXP4xK0f/e1ZomU0DgWArA9J3FTAX/dtR38YISc5tYsBSkLmCpyh+9Mv+VFZx3YZDRGbrdzt4=",
+            "expires": "2024-06-22T21:14:21.045Z",
+            "domain": "navyfederal.org",
+            "path": "/",
+            "hostOnly": false,
+            "creation": "2024-06-22T19:15:06.482Z",
+            "lastAccessed": "2024-06-22T19:15:06.482Z"
+          },
+          {
+            "key": "X-Restricted-State",
+            "value": "False",
+            "expires": "2024-06-22T20:05:06.466Z",
+            "domain": "www.navyfederal.org",
+            "path": "/",
+            "hostOnly": true,
+            "creation": "2024-06-22T19:15:06.483Z",
+            "lastAccessed": "2024-06-22T19:15:06.483Z"
+          }
+        ]
+      },
+      "userData": {},
+      "maxErrorScore": 3,
+      "errorScoreDecrement": 0.5,
+      "expiresAt": "2024-06-22T20:04:20.655Z",
+      "createdAt": "2024-06-22T19:14:20.655Z",
+      "usageCount": 2,
+      "maxUsageCount": 50,
+      "errorScore": 0
+    }
+  ]
+}
