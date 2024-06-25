@@ -1,8 +1,8 @@
 {
 	"actorSpecification": 1,
-	"name": "hd-price-tracker",
-	"title": "Project Puppeteer Crawler Typescript",
-	"description": "Crawlee and Puppeteer project in typescript.",
+	"name": "nfcu-mortgage-interest",
+	"title": "nfcu-mortgage-interest",
+	"description": "nfcu-mortgage-interest",
 	"version": "0.0",
 	"meta": {
 		"templateId": "ts-crawlee-puppeteer-chrome"
