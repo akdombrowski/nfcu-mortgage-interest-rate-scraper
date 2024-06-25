@@ -27,7 +27,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
@@ -143,7 +144,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# dist
 
 # Gatsby files
 .cache/
@@ -260,4 +261,3 @@ $RECYCLE.BIN/
 # End of https://www.toptal.com/developers/gitignore/api/dotenv,linux,macos,node,typings,visualstudiocode,windows,yarn
 
 # Custom rules (everything added below won't be overriden by 'Generate .gitignore File' if you use 'Update' option)
-
