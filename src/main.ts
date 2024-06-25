@@ -14,14 +14,13 @@ import { PuppeteerCrawler } from "crawlee";
       launchContext: {
         launchOptions: {
           headless: true,
-          timeout: 5000, // ms
         },
       },
       maxRequestRetries: Number(process.env.MAX_REQUEST_RETRIES) ?? 0,
       maxRequestsPerCrawl: Number(process.env.MAX_REQUESTS_PER_CRAWL) ?? 1,
-      navigationTimeoutSecs: Number(process.env.NAVIGATION_TIMEOUT_SECS) ?? 25,
+      navigationTimeoutSecs: Number(process.env.NAVIGATION_TIMEOUT_SECS) ?? 90,
       requestHandlerTimeoutSecs:
-        Number(process.env.REQUEST_HANDLER_TIMEOUT_SECS) ?? 30,
+        Number(process.env.REQUEST_HANDLER_TIMEOUT_SECS) ?? 120,
       // Activates the Session pool (default is true).
       useSessionPool:
         process.env.USE_SESSION_POOL?.toLowerCase() === "false" ? false : true,
