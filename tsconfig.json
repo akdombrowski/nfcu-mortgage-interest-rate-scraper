@@ -9,7 +9,7 @@
     "moduleResolution": "Node16",
     "allowJs": true,
     "outDir": "dist",
-    "rootDir": "src",
+    "rootDir": ".",
     "skipLibCheck": true,
     "tsBuildInfoFile": "dist/.tsbuildinfo",
     "noImplicitOverride": true
