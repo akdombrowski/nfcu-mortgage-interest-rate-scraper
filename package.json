@@ -12,20 +12,20 @@
     "cheerio": "^1.0.0-rc.12",
     "crawlee": "^3.10.5",
     "dotenv": "^16.4.5",
-    "puppeteer": "^22.11.1"
+    "puppeteer": "^22.12.0"
   },
   "devDependencies": {
     "@apify/eslint-config-ts": "^0.4.1",
     "@apify/tsconfig": "^0.1.0",
-    "@types/node": "^20.14.5",
-    "@typescript-eslint/eslint-plugin": "^7.13.1",
-    "@typescript-eslint/parser": "^7.13.1",
+    "@types/node": "^20.14.8",
+    "@typescript-eslint/eslint-plugin": "^7.14.1",
+    "@typescript-eslint/parser": "^7.14.1",
     "apify-cli": "^0.19.5",
-    "eslint": "^9.5.0",
+    "eslint": "8.56.0",
     "prettier": "^3.3.2",
     "prettier-eslint": "^16.3.0",
-    "tsx": "^4.15.6",
-    "typescript": "^5.4.5"
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
   },
   "scripts": {
     "crawl": "apify run --purge",
