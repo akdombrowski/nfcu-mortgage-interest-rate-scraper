@@ -1,26 +1,6 @@
 {
-	"15 Year": [
-		"15 Year",
-		"5.625%",
-		"0.250",
-		"5.820%"
-	],
-	"15 Year Jumbo": [
-		"15 Year Jumbo",
-		"6.000%",
-		"0.250",
-		"6.197%"
-	],
-	"30 Year": [
-		"30 Year",
-		"6.250%",
-		"0.500",
-		"6.394%"
-	],
-	"30 Year Jumbo": [
-		"30 Year Jumbo",
-		"6.625%",
-		"0.500",
-		"6.772%"
-	]
+	"Term": "15 Year",
+	"Interest Rates As Low As": "5.625%",
+	"Discount Points": "0.250",
+	"APR As Low As": "5.820%"
 }
