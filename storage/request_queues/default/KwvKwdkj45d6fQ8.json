@@ -1,6 +1,6 @@
 {
 	"id": "KwvKwdkj45d6fQ8",
-	"json": "{\"id\":\"KwvKwdkj45d6fQ8\",\"url\":\"https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html\",\"loadedUrl\":\"https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html\",\"uniqueKey\":\"https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2024-06-26T12:53:59.490Z\"}",
+	"json": "{\"id\":\"KwvKwdkj45d6fQ8\",\"url\":\"https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html\",\"loadedUrl\":\"https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html\",\"uniqueKey\":\"https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"__crawlee\":{\"state\":4}},\"handledAt\":\"2024-06-26T13:11:26.030Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

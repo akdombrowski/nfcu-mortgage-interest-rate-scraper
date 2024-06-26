@@ -88,6 +88,9 @@ await Actor.main(async () => {
             } else {
               throw new Error("failed to scrape table header or table data");
             }
+          } else {
+            throw new Error("failed to get table body");
+
           }
           return data;
         });
