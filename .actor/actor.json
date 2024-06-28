@@ -4,6 +4,8 @@
 	"title": "nfcu-mortgage-interest",
 	"description": "nfcu-mortgage-interest",
 	"version": "0.0",
+  "minMemoryMbytes": 512,
+  "maxMemoryMbytes": 2048,
 	"meta": {
 		"templateId": "ts-crawlee-puppeteer-chrome"
 	},

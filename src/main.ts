@@ -6,11 +6,9 @@ export interface ScrapedLoanData {
 }
 
 await Actor.main(async () => {
-  const startUrls = [
-    "https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html",
-  ];
+  const startURL =
+    "https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html";
 
-  // Create a PuppeteerCrawler that will use the proxy configuration and and handle requests with the router from routes.js file.
   const crawler = new PuppeteerCrawler({
     // proxyConfiguration,
     // requestHandler: router,
@@ -90,7 +88,6 @@ await Actor.main(async () => {
             }
           } else {
             throw new Error("failed to get table body");
-
           }
           return data;
         });
@@ -105,5 +102,5 @@ await Actor.main(async () => {
   });
 
   // Run the crawler with the start URLs and wait for it to finish.
-  await crawler.run(startUrls);
+  await crawler.run(Array.of(startURL));
 });
