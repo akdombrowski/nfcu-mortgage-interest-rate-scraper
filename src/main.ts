@@ -1,12 +1,14 @@
 import { Actor } from "apify";
-import { PuppeteerCrawler } from "crawlee";
+import { Dictionary, KeyValueStore, PuppeteerCrawler } from "crawlee";
 
 export interface ScrapedLoanData {
   [key: string]: any;
 }
 
 await Actor.main(async () => {
+  const input = (await KeyValueStore.getInput()) as Dictionary;
   const startURL =
+    input.startUrl ??
     "https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html";
 
   const crawler = new PuppeteerCrawler({
