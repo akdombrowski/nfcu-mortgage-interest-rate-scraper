@@ -1,7 +1,9 @@
 import { Actor } from "apify";
-import { PuppeteerCrawler } from "crawlee";
+import { KeyValueStore, PuppeteerCrawler } from "crawlee";
 await Actor.main(async () => {
-    const startURL = "https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html";
+    const input = (await KeyValueStore.getInput());
+    const startURL = input.startUrl ??
+        "https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html";
     const crawler = new PuppeteerCrawler({
         // proxyConfiguration,
         // requestHandler: router,
