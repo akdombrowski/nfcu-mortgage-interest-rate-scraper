@@ -2,6 +2,7 @@
   "title": "NFCU Mortgage Input Schema",
   "description": "This is an input schema",
   "schemaVersion": 1,
+  "type": "object",
   "properties": {
     "startUrls": {
       "title": "Start URLs",
