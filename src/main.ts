@@ -10,6 +10,17 @@ await Actor.main(async () => {
   const startURL =
     input.startUrl ??
     "https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html";
+  // env vars used
+  const {
+    MAX_REQUEST_RETRIES,
+    MAX_REQUESTS_PER_CRAWL,
+    NAVIGATION_TIMEOUT_SECS,
+    REQUEST_HANDLER_TIMEOUT_SECS,
+    USE_SESSION_POOL,
+    MAX_POOL_SIZE,
+    PERSIST_COOKIES_PER_SESSION,
+    MAX_CONCURRENCY,
+  } = process.env;
 
   const crawler = new PuppeteerCrawler({
     // proxyConfiguration,
@@ -19,26 +30,33 @@ await Actor.main(async () => {
         headless: true,
       },
     },
-    maxRequestRetries: Number(process.env.MAX_REQUEST_RETRIES) ?? 0,
-    maxRequestsPerCrawl: Number(process.env.MAX_REQUESTS_PER_CRAWL) ?? 2,
-    navigationTimeoutSecs: Number(process.env.NAVIGATION_TIMEOUT_SECS) ?? 60,
+
+    maxRequestRetries:
+      (MAX_REQUEST_RETRIES && Number.parseInt(MAX_REQUEST_RETRIES)) || 0,
+    maxRequestsPerCrawl:
+      (MAX_REQUESTS_PER_CRAWL && Number.parseInt(MAX_REQUESTS_PER_CRAWL)) || 2,
+    navigationTimeoutSecs:
+      (NAVIGATION_TIMEOUT_SECS && Number.parseInt(NAVIGATION_TIMEOUT_SECS)) ||
+      60,
     requestHandlerTimeoutSecs:
-      Number(process.env.REQUEST_HANDLER_TIMEOUT_SECS) ?? 60,
+      (REQUEST_HANDLER_TIMEOUT_SECS &&
+        Number.parseInt(REQUEST_HANDLER_TIMEOUT_SECS)) ||
+      60,
     // Activates the Session pool (default is true).
-    useSessionPool:
-      process.env.USE_SESSION_POOL?.toLowerCase() === "false" ? false : true,
+    useSessionPool: USE_SESSION_POOL?.toLowerCase() === "false" ? false : true,
     // Overrides default Session pool configuration
     sessionPoolOptions: {
-      maxPoolSize: Number(process.env.MAX_POOL_SIZE) ?? 100,
+      maxPoolSize: (MAX_POOL_SIZE && Number.parseInt(MAX_POOL_SIZE)) || 100,
     },
     // Set to true if you want the crawler to save cookies per session,
     // and set the cookies to page before navigation automatically (default is true).
     persistCookiesPerSession:
-      process.env.PERSIST_COOKIES_PER_SESSION?.toLowerCase() === "false"
-        ? false
-        : true,
+      PERSIST_COOKIES_PER_SESSION?.toLowerCase() === "false" ? false : true,
     autoscaledPoolOptions: {
-      maxConcurrency: Number(process.env.AUTOSCALE_POOL_MAX_CONCURRENCY) ?? 1,
+      maxConcurrency:
+        (MAX_CONCURRENCY &&
+          Number.parseInt(MAX_CONCURRENCY)) ||
+        1,
     },
 
     async requestHandler(ctx) {

@@ -1,7 +1,3 @@
 {
-	"startUrls": [
-		{
-			"url": "https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html"
-		}
-	]
+  "startUrl": "https://www.navyfederal.org/loans-cards/mortgage/mortgage-rates/conventional-fixed-rate-mortgages.html"
 }
